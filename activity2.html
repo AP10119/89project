@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Welcome To 2nd Page</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="main.js"></script>
+    </head>
+    <body class="background-color" style="background-color: red;">
+        <h3 id="player1name"></h3><span><h3 id="player1score"></h3></span>
+        <br>
+        <h3 id="player2name"></h3><span><h3 id="player2score"></h3></span>
+        <center>
+            <h2 style="color:white">The Math Quiz</h2>
+            <h3 id="question"></h3>
+            <h3 id="answer"></h3>
+            <div id="output" style="width: 700px;"></div>
+            <br>
+            <label style="color: rgb(107, 107, 231);">Number 1</label>
+            <br>
+            <input style="width: 400px;"  type="number" placeholder="Number 1" id="number1">
+            <br>
+            <label style="color: rgb(107, 107, 231);">Number 2</label>
+            <br>
+            <input style="width: 400px;" type="number" placeholder="Number 2" id="number2">
+            <br>
+            <br>
+            <button onclick="send()" class="btn btn-info">Send</button>
+        </center>
+    </body>
+</html>
